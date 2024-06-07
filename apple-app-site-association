@@ -7,12 +7,13 @@
                 "components": [
                     {
                         "/": "/details/*",
-                        "?": { "id": "????????????????????????" },
-                        "comment": "Matches any URL whose path starts with /help/ and which has a query item with name 'articleNumber' and a value of exactly 4 characters"
+                        "?": {
+                            "id": "*"
+                        },
+                        "comment": "Matches any URL whose path starts with /details/ and which has a query item with name 'id'"
                     }
                 ]
             }
         ]
     }
- }
- 
+}
