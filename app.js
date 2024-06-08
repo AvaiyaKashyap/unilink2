@@ -17,6 +17,7 @@ app.get('/.well-known/apple-app-site-association', (req, res) => {
     });
 });
 
+
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
